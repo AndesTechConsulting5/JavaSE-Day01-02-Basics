@@ -54,6 +54,25 @@ public class App4
         System.out.print("A\t");
         System.out.print("B\n");
 
+        // mult table
+
+        int N = 10;
+
+        System.out.print("\t");
+        for(int i1=1; i1<=N; i1++ ) System.out.print(i1 + "\t");
+        System.out.print("\b\n");
+
+        for(int i1=1; i1<=N; i1++ ){
+            System.out.print(i1 + "\t");
+            for(int j1=1; j1<=N; j1++ )
+            {
+                System.out.print(i1*j1 + "\t");
+            }
+            System.out.print("\b\n");
+        }
+
+
+
 
 
 
