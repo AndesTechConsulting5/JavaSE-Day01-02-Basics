@@ -56,7 +56,7 @@ public class App4
 
         // mult table
 
-        int N = 10;
+        int N = 13;
 
         System.out.print("\t");
         for(int i1=1; i1<=N; i1++ ) System.out.print(i1 + "\t");
@@ -72,8 +72,45 @@ public class App4
         }
 
 
+     //--------------------------------------
+
+     for(int k =0; k<10; k++)
+     {
+
+//          if(k%2==0) continue;
+//         // code
+//         //
+//         //
+//         System.out.println("end block.."+ k);
 
 
+         if(k%2!=0) {
+         // code
+         //
+         //
+         System.out.println("end block.."+ k);}
+     }
+
+
+     // search in Nd array...
+
+      ext:  for (int k =0; k<=20; k++)
+        {
+            for (int k2 =0; k2<=20; k2++)
+            {
+                for (int k3 =0; k3<=20; k3++)
+                {
+                    if(k*k2*k3 == 144)
+                    {
+                        System.out.printf("k=%d, k2=%d, k3=%d\n",k,k2,k3);
+                        break ext;}
+
+                }
+
+            }
+
+
+        }
 
 
 
